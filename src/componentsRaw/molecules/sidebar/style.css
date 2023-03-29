@@ -1,0 +1,107 @@
+.sidebarmolecule-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.sidebarmolecule-container1 {
+  gap: var(--dl-space-space-threeunits);
+  margin: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sidebarmolecule-container2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sidebarmolecule-i-m-a-g-e1150x {
+  width: 80px;
+  height: 80px;
+  border-color: transparent;
+}
+.sidebarmolecule-text {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Archivo;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sidebarmolecule-container3 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sidebarmolecule-i-m-a-g-e2150x {
+  width: 80px;
+  height: 80px;
+  border-color: transparent;
+}
+.sidebarmolecule-text1 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Archivo;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sidebarmolecule-container4 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sidebarmolecule-i-m-a-g-e3150x {
+  width: 80px;
+  height: 80px;
+  border-color: transparent;
+}
+.sidebarmolecule-text2 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Archivo;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.sidebarmolecule-root-class-name {
+  position: static;
+}
+
+
+@media(max-width: 991px) {
+  .sidebarmolecule-container1 {
+    gap: var(--dl-space-space-threeunits);
+    align-items: center;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    justify-content: center;
+  }
+}

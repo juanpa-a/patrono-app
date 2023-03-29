@@ -1,0 +1,47 @@
+.footerContainer {
+    width: 100vw;
+    background: var(--dark);
+    display: flex;
+    justify-content: center;
+    color: var(--light);
+    text-align: center;
+    font-family: Archivo;
+    font-weight: 300;
+}
+.footerWrapper {
+    flex-grow: 1;
+    padding: 3rem;
+    max-width: var(--max-width);
+}
+.footerSection {
+    font-size: 8px;
+    line-height: 11px;
+}
+.footerBody {
+    font-style: italic;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 38px;
+}
+.footerContactSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3rem 0;
+}
+.footerSocial {
+    display: flex;
+    gap: 0.6rem;
+}
+.footerFairUse {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.footerRights {
+    display: flex;
+    justify-content: end;
+}
+.footerLogo {
+    padding: 1rem;
+    width: 130px;
+}

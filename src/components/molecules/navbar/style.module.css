@@ -1,0 +1,43 @@
+.navbarContainer {
+    width: 100%;
+    background: var(--light);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.navbarWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+.navbarGroup {
+    display: flex;
+    gap: 1rem;
+}
+.navItem {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--dark);
+    text-decoration: none;
+}
+.navbarLogo {
+    width: 68px;
+    height: 68px;
+}
+.navbarLf{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.navbarCn{
+  margin: auto;
+}
+.navbarRg{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

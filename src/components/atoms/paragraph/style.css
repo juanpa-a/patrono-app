@@ -1,0 +1,8 @@
+.paragraph {
+    color: var(--light);
+    font-size: 14px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Quattrocento;
+    font-weight: 400;
+}

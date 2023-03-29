@@ -1,0 +1,17 @@
+.priceatom-container {
+  display: flex;
+  position: relative;
+}
+.priceatom-text {
+  color: var(--dl-color-default-nfa7200);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Archivo;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

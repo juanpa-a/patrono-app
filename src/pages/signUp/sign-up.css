@@ -1,0 +1,101 @@
+.sign-up-container {
+  min-height: 100vh;
+}
+.sign-up-container1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-sixunits);
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-up-illustration {
+  gap: var(--dl-space-space-twounits);
+  width: 50%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-header-logo {
+  width: 293px;
+  height: 62px;
+  border-color: transparent;
+}
+.sign-up-image {
+  width: 100px;
+  object-fit: cover;
+}
+.sign-up-form-wrapper {
+  width: 50%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sign-up-name-fields {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sign-up-last-name-fields {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sign-up-email-field {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-up-password-wrapper {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sign-up-text {
+  margin: var(--dl-space-space-unit);
+  font-style: normal;
+  text-align: center;
+  font-family: Archivo;
+  font-weight: 100;
+}
+.sign-up-container2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.sign-up-text1 {
+  margin: var(--dl-space-space-oneandhalfunits);
+  font-size: 10px;
+  text-align: center;
+  font-family: Archivo;
+}
+.sign-up-text3 {
+  text-decoration: underline;
+}

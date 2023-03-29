@@ -1,0 +1,10 @@
+.page-number {
+    color: var(--dark);
+    position: relative;
+    font-size: 128px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Quattrocento;
+    font-weight: 400;
+    line-height: 0.6;
+}

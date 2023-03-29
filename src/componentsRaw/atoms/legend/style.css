@@ -1,0 +1,18 @@
+.legendatom-container {
+  display: flex;
+  position: relative;
+}
+.legendatom-text {
+  color: var(--dl-color-default-bge7e4d8);
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Archivo;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+

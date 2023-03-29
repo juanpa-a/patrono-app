@@ -1,0 +1,52 @@
+.button {
+    font-family: Archivo;
+    font-size: 12px;
+    font-weight: 500;
+    width: 130px;
+    padding: 0.5rem 1rem;
+    border-width: 1px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: scale 120ms linear;
+    letter-spacing: 1px;
+}
+.button:hover {
+    scale: 1.1;
+}
+.button:active {
+    transform: scale(.98);
+}
+
+.button-apple {
+    background-color: var(--dark);
+    border: 2px solid var(--dark);
+    color: var(--light);
+}
+.button-google {
+    background-color: var(--btn-gg);
+    border: 2px solid var(--btn-gg);
+    color: var(--light);
+}
+.button-facebook {
+    background-color: var(--btn-fb);
+    border: 2px solid var(--btn-fb);
+    color: var(--light);
+}
+.button-primary {
+    background-color: var(--light);
+    border: 2px solid var(--light);
+}
+.button-secondary {
+    background-color: var(--btn-sc);
+    border: 2px solid var(--btn-sc);
+    color: var(--light);
+}
+.button-outlined {
+    background-color: transparent;
+    border: 2px solid var(--btn-sc);
+    color: var(--light);
+    transition: background-color 250ms linear;
+}
+.button-outlined:hover {
+    background-color: var(--btn-sc);
+}

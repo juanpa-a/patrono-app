@@ -1,0 +1,9 @@
+.price {
+  color: var(--accent);
+  font-size: 32px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Archivo;
+  font-weight: 600;
+}

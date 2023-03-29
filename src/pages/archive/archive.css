@@ -1,0 +1,80 @@
+.archive-container {
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.archive-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-start;
+  background-color: var(--dl-color-default-bgf2f0ee);
+}
+.archive-sidebar-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.archive-container2 {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.archive-pinned-contracts {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.archive-pinned {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.archive-note {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.archive-image {
+  width: 100px;
+  object-fit: cover;
+}
+.archive-text {
+  padding: var(--dl-space-space-oneandhalfunits);
+  font-size: 20px;
+  text-align: center;
+  font-family: Archivo;
+}
+.archive-text2 {
+  font-style: normal;
+  font-weight: 600;
+}
+.archive-recent-contracts {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.archive-recent {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+}

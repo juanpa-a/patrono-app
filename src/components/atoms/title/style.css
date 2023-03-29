@@ -1,0 +1,9 @@
+.title {
+    color: var(--light);
+    font-size: 48px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Archivo;
+    font-weight: 600;
+    text-transform: uppercase;
+}

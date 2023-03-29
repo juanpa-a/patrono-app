@@ -1,0 +1,9 @@
+.timestamp {
+    color: var(--dark);
+    position: relative;
+    font-size: 12px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Archivo Expanded;
+    font-weight: 700;
+}

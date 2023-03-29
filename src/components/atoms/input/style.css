@@ -1,0 +1,28 @@
+.text-field-container {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+.text-field-label {
+    padding: 0 1rem;
+    color: var(--dark);
+    font-style: normal;
+    text-align: left;
+    font-family: Archivo;
+    font-weight: 500;
+}
+.text-field {
+    /* width: 100%; */
+    border: 1px solid var(--light);
+    border-radius: 20px;
+    background-color: var(--bg-sc);
+    padding: 0.5rem 1rem;
+    transition: border 500ms linear;
+}
+.text-field:focus{
+  border: 1px solid var(--accent);
+  outline: none;
+}

@@ -1,3 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+  /* background colors */
+  --bg-pr: #f2f0ee;
+  --bg-sc: #e7e4d8;
+
+  /* colors */
+  --light: #e7e4d8;
+  --dark: #1e1e1e;
+  --accent: #fa7200;
+
+  /* button colors */
+  --btn-ap: #1e1e1e;
+  --btn-gg: #e5736b;
+  --btn-fb: #6f8ec3;
+  --btn-pr: #e7e4d8;
+  --btn-sc: #fa7200;
+
+  --max-width: 1280px;
+
+}
+
+body {
+  margin: 0;
+}
