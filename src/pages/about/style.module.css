@@ -1,7 +1,7 @@
-.about-container {
+.aboutContainer {
   min-height: 100vh;
 }
-.about-container1 {
+.aboutContainer1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -11,19 +11,18 @@
   border-color: transparent;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: var(--dl-color-default-bgf2f0ee);
+  background-color: var(--light);
 }
-.about-background {
-  width: 100%;
+.aboutBackground {
+  max-width: 100vw;
   height: 100vh;
-  padding: var(--dl-space-space-threeunits);
-  border-color: transparent;
-  background-size: cover;
-  background-image: url("/playground_assets/patrono011115-o97k-1500h.png");
+  background-color: #3c3c3c;
+  background-image: url("/aboutBg.png");
   background-position: center;
+  background-repeat: no-repeat;
 }
-.about-main-container {
-  gap: var(--dl-space-space-twounits);
+.aboutMainContainer {
+  /* gap: 2rem; */
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -31,31 +30,31 @@
   align-items: center;
   justify-content: center;
 }
-.about-main-wrapper {
-  gap: var(--dl-space-space-twounits);
+.aboutMainWrapper {
+  gap: 2rem;
   width: 50%;
   height: auto;
   display: flex;
-  padding: var(--dl-space-space-threeunits);
+  padding: 5rem;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
-.about-divider {
+.aboutDivider {
   width: 37px;
   height: 0px;
   display: flex;
   align-items: center;
-  border-color: #E7E4D8;
+  border-color: #e7e4d8;
   border-style: solid;
   border-width: 1px;
   justify-content: flex-end;
 }
-.about-price-wrapper {
+.aboutPriceWrapper {
   width: 50%;
   height: auto;
   display: flex;
-  padding: var(--dl-space-space-threeunits);
+  padding: 5rem;
   align-items: flex-end;
   flex-direction: column;
   justify-content: center;

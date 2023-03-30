@@ -1,23 +1,21 @@
-import React from 'react'
 
-import { Helmet } from 'react-helmet'
+import { Navbar, Footer, Sidebar } from "@molecules/index"
 
-import Navbarmolecule from '../components/navbarmolecule'
-import Sidebarmolecule from '../components/sidebarmolecule'
 import ContractCardorganism from '../components/contract-cardorganism'
-import Footermolecule from '../components/footermolecule'
-import './archive.css'
 
-const Archive = (props) => {
+
+import style from "./style.module.css";
+
+const Archive = () => {
   return (
     <div className="archive-container">
       <Helmet>
         <title>exported project</title>
       </Helmet>
-      <Navbarmolecule rootClassName="navbarmolecule-root-class-name3"></Navbarmolecule>
+      <Navbar />
       <div className="archive-container1">
         <div className="archive-sidebar-wrapper">
-          <Sidebarmolecule rootClassName="sidebarmolecule-root-class-name"></Sidebarmolecule>
+          <Sidebar />
         </div>
         <div className="archive-container2">
           <div className="archive-pinned-contracts">
@@ -59,7 +57,7 @@ const Archive = (props) => {
           </div>
         </div>
       </div>
-      <Footermolecule rootClassName="footermolecule-root-class-name2"></Footermolecule>
+      <Footer />
     </div>
   )
 }

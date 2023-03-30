@@ -1,6 +1,6 @@
 import type { Props } from "./props";
-import "./style.css";
+import style from "./style.module.css";
 
-export const Priceatom = ({ value }: Props) => (
-    <span className="price">{value}</span>
+export const Price = ({ value }: Props) => (
+  <span className={style.price}>{value}</span>
 );

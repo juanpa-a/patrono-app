@@ -1,3 +1,3 @@
 export type Props = {
-  value: number
+  value: string
 }

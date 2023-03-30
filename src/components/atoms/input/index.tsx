@@ -1,14 +1,14 @@
 import type { Props } from "./props";
-import "./style.css";
+import style from "./style.module.css";
 
 export const TextField = ({ label, placeholder }: Props) => {
     return (
-        <div className={"text-field-container"}>
-            <span className="text-field-label">{label}</span>
+        <div className={style.textFieldContainer}>
+            <span className={style.textFieldLabel}>{label}</span>
             <input
                 type="text"
                 placeholder={placeholder}
-                className="text-field"
+                className={style.textField}
             />
         </div>
     );

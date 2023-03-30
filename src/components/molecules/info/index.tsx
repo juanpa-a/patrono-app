@@ -1,6 +1,6 @@
 import type { Props } from "./props";
 import "./style.css";
-import { Button } from "@atoms";
+import { Button } from "@atoms/button/index";
 
 export const Info = ({ title, description, action, handleClick }: Props) => {
     return (

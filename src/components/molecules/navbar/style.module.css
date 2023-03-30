@@ -1,5 +1,5 @@
 .navbarContainer {
-    width: 100%;
+    width: 100vw;
     background: var(--light);
     display: flex;
     justify-content: center;

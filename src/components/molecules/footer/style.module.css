@@ -1,5 +1,5 @@
 .footerContainer {
-    width: 100vw;
+    width: 100%;
     background: var(--dark);
     display: flex;
     justify-content: center;

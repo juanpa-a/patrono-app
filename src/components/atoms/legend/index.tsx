@@ -1,6 +1,6 @@
 import type { Props } from "./props";
-import "./style.css";
+import style from "./style.module.css";
 
 export const Legend = ({ text }: Props) => (
-    <span className="legend">{text}</span>
+  <span className={style.legend}>{text}</span>
 );

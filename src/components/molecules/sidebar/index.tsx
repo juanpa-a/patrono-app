@@ -1,8 +1,6 @@
 import React from 'react'
 
-import PropTypes from 'prop-types'
-
-import './sidebarmolecule.css'
+import style from "./style.module.css";
 
 const Sidebarmolecule = (props) => {
   return (
@@ -35,26 +33,6 @@ const Sidebarmolecule = (props) => {
       </div>
     </div>
   )
-}
-
-Sidebarmolecule.defaultProps = {
-  IMAGE2150x_src: '/playground_assets/image2150x1757-5ig4-200h.png',
-  IMAGE1150x_alt1: 'IMAGE1150x1742',
-  IMAGE3150x_alt1: 'IMAGE3150x1802',
-  IMAGE1150x_src1: '/playground_assets/image1150x1742-u1br-200h.png',
-  IMAGE2150x_alt: 'IMAGE2150x1757',
-  rootClassName: '',
-  IMAGE3150x_src1: '/playground_assets/image3150x1802-quhw-200h.png',
-}
-
-Sidebarmolecule.propTypes = {
-  IMAGE2150x_src: PropTypes.string,
-  IMAGE1150x_alt1: PropTypes.string,
-  IMAGE3150x_alt1: PropTypes.string,
-  IMAGE1150x_src1: PropTypes.string,
-  IMAGE2150x_alt: PropTypes.string,
-  rootClassName: PropTypes.string,
-  IMAGE3150x_src1: PropTypes.string,
 }
 
 export default Sidebarmolecule

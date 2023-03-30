@@ -1,4 +1,6 @@
 import type { Props } from "./props";
-import "./style.css";
+import style from "./style.module.css";
 
-export const PageNumber = ({ page }: Props) => <span className="">I.</span>;
+export const PageNumber = ({ _page }: Props) => (
+  <span className={style.pageNumber}>I.</span>
+);
